@@ -20,15 +20,20 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import paytm from "./company/paytm.png"
+import jwilliamson from "./company/jwilliamson.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import examplePdf from "./ExamplePdf.pdf"
+
+import twitterSvg from "./socialIcons/twitter.svg"
+import mediumSvg from "./socialIcons/medium.svg"
+import linkedInSvg from "./socialIcons/linkedIn.svg"
+import githubSvg from "./socialIcons/github.svg"
+import instagramSvg from "./socialIcons/instagram.svg"
+
 
 export {
   logo,
@@ -52,11 +57,15 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
+  paytm,
+  jwilliamson,
+  examplePdf,
+  twitterSvg,
+  mediumSvg,
+  linkedInSvg,
+  githubSvg,
+  instagramSvg,
 };

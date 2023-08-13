@@ -1,8 +1,8 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+  // mobile,
+  // backend,
+  // creator,
+  // web,
   javascript,
   typescript,
   html,
@@ -15,17 +15,23 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  paytm,
+  jwilliamson,
 } from "../assets";
 
+
+
+
+
 export const navLinks = [
+  {
+    id: "resume",
+    title: "Resume",
+  },
   {
     id: "about",
     title: "About",
@@ -43,19 +49,27 @@ export const navLinks = [
 const services = [
   {
     title: "Web Developer",
-    icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Coding Mentor",
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Aspiring Full Stack Developer",
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Content Creator / Blog Writer",
+  },
+  {
+    title: "Competitive Programmer",
+  },
+  {
+    title: "Open Source Contributor",
+  },
+  {
+    title: "Blockchain Enthusiast",
+  },
+  {
+    title: "AI Enthusiast",
   },
 ];
 
@@ -116,57 +130,46 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Web Development Intern",
+    company_name: "JWilliamson.INC",
+    icon: jwilliamson,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2021 - July 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "UI Development: React.js, AntDesign",
+      "Twitch Extention Development: React.js, Node.js, Express.js, Twitch Developer Rig, Ngrok",
+      "Built Discord Bots: Using Python",
+      "Worked With AWS",
+      "Got familiar with Docker, K8S Architecture and workflow"
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer Intern",
+    company_name: "Paytm",
+    icon: paytm,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "April 2022 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      "Worked with BO team on NAGAD Wallet Project",
+      "Tech Used: React.js, TypeScript, Redux",
+    ]
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Engineer",
+    company_name: "Paytm",
+    icon: paytm,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "July 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Working on NAGAD Wallet project",
+      "Build Complex modules like USER TYPE, Cashback Reversal, Limit Heads, Onboarding logic and components",
+      "Wrote validations with all the edge cases",
+      "Wrote readable, resusable code",
+      "Built common components that are used throughout the application",
+      "Tech Used: React.js, TypeScript, Material UI, Redux, React Hook Form",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
 const testimonials = [
