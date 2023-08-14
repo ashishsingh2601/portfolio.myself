@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_project_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -62,7 +63,7 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-        <button>
+        <button onClick={() => window.open(live_project_link, "_blank")} >
           <div className="mt-6 mr-3  bg-white rounded-lg text-zinc-600 hover:bg-zinc-600 hover:text-white text-white animate-bounce">
             <p className="text-center p-3 font-semibold tracking-wide">
               LIVE DEMO

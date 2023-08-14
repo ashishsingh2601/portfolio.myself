@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import golang from "./tech/golang.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -33,6 +34,8 @@ import mediumSvg from "./socialIcons/medium.svg"
 import linkedInSvg from "./socialIcons/linkedIn.svg"
 import githubSvg from "./socialIcons/github.svg"
 import instagramSvg from "./socialIcons/instagram.svg"
+
+import threadIt from "./threadIt.png"
 
 
 export {
@@ -68,4 +71,6 @@ export {
   linkedInSvg,
   githubSvg,
   instagramSvg,
+  threadIt,
+  golang,
 };
