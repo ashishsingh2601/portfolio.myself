@@ -27,7 +27,7 @@ import jwilliamson from "./company/jwilliamson.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import examplePdf from "./ExamplePdf.pdf"
+import ashishResume from "./_Ashish_Singh_Resume_.pdf"
 
 import twitterSvg from "./socialIcons/twitter.svg"
 import mediumSvg from "./socialIcons/medium.svg"
@@ -65,7 +65,6 @@ export {
   tripguide,
   paytm,
   jwilliamson,
-  examplePdf,
   twitterSvg,
   mediumSvg,
   linkedInSvg,
@@ -73,4 +72,5 @@ export {
   instagramSvg,
   threadIt,
   golang,
+  ashishResume,
 };

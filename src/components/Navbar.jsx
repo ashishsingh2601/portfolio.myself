@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { examplePdf } from "../assets";
+import { ashishResume } from "../assets";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
@@ -128,7 +128,7 @@ const Navbar = () => {
             nav.title === "Resume" ? (
               <li className="hover:text-white text-[18px] font-medium cursor-pointer text-red-600">
                 <Link
-                  to={examplePdf}
+                  to={ashishResume}
                   download="AshishSingh_Resume"
                   target="_blank"
                   rel="noreferrer"
