@@ -27,7 +27,7 @@ import jwilliamson from "./company/jwilliamson.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import ashishResume from "./_resumeAshishSingh.pdf"
+import ashishResume from "./Ashish_Singh_Resume_1.pdf"
 
 import twitterSvg from "./socialIcons/twitter.svg"
 import mediumSvg from "./socialIcons/medium.svg"
