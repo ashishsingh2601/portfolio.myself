@@ -27,14 +27,14 @@ import jwilliamson from "./company/jwilliamson.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import ashishResume from "./_ashish_singh_resume.pdf"
+import ashishResume from "./_ashish_singh_resume_new.pdf"
 
 import twitterSvg from "./socialIcons/twitter.svg"
 import mediumSvg from "./socialIcons/medium.svg"
 import linkedInSvg from "./socialIcons/linkedIn.svg"
 import githubSvg from "./socialIcons/github.svg"
 import instagramSvg from "./socialIcons/instagram.svg"
-
+import clearConnect from "./ClearConnect.png"
 import threadIt from "./threadIt.png"
 
 
@@ -73,4 +73,5 @@ export {
   threadIt,
   golang,
   ashishResume,
+  clearConnect,
 };

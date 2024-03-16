@@ -21,7 +21,8 @@ import {
   paytm,
   jwilliamson,
   threadIt,
-  golang
+  golang,
+  clearConnect
 } from "../assets";
 
 
@@ -242,6 +243,40 @@ const projects = [
     image: threadIt,
     source_code_link: "https://github.com/ashishsingh2601/ThreadIt",
     live_project_link: "https://thread-it-rust.vercel.app/"
+  },
+  {
+    name: "ClearConnect",
+    description:
+      "Real-time video chat application build for seamless communication from anywhere round the globe.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MUI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "WebRTC",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Socket.IO",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Peer.js",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: clearConnect,
+    source_code_link: "https://github.com/ashishsingh2601/ClearConnect",
+    live_project_link: "https://clearconnect.netlify.app/"
   },
   // {
   //   name: "Job IT",
